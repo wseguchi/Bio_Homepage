@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&display=swap');
+
+body {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    color: #1a494c;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.8em;
+    padding: 20px;
+    text-shadow: 2px 2px 2px #349398;
+}
+
+strong {
+    font-weight: 700;
+}
+
+#main_nav a, nav a {
+    color: #5AC0C6;
+    border-bottom: 5px solid transparent;
+}
+#main_nav a:hover, nav a:hover {
+    color: #349398;
+    border-bottom: 5px solid #349398;
+}
+
+#main_up {
+    width: 100%;
+    height: 55vh;
+    background-color: #fff;
+    min-height: 300px;
+    text-align: center;
+}
+
+#main_up img {
+    margin-top: 60px;
+}
+
+#main_nav, nav{
+    text-transform: uppercase;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #5AC0C6;
+}
+
+#main_down {
+    background-color: #5AC0C6;
+    width: 100%;
+    height: 40vh;
+}
+
+#main_icons {
+    text-align: center;
+    text-shadow: 1px 1px 1px #349398;
+}
+
+#main_icons a{
+    font-size: 2.4em;
+    color: #fff;
+    opacity: .8;
+    padding: 5px;
+}
+
+#main_icons a:hover{
+    color: #349398;
+    opacity: 1;
+    text-shadow: none;
+}
+
+.bg_colored {
+    background-color: #5AC0C6;
+}
+
+nav {
+    background-color: #fff;
+    padding: .0rem 1rem !important;
+}
+
+#main {
+    margin: 15px 12%;
+}
+
+.icon {
+    font-size: 2.6em;
+}
+
+.p_padding {
+    padding-top: 30px;
+}
+
+.profile {
+    width: 120px;
+    text-align: center;
+    border-radius: 60px;
+}
+
+.card {
+    border: none;
+    background-color: #b3e2e5;
+    box-shadow: 1px 1px 5px #349398;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    font-size: 2em;
+}
